@@ -1,0 +1,122 @@
+
+/* ===== General page style ===== */
+body {
+    margin: 0;
+    padding: 100px 40px 40px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #4A342E;
+    background-color: #F7F1E8;
+    line-height: 1.7;
+}
+
+/* ===== Navigation bar ===== */
+ul.navbar {
+    list-style-type: none;
+    padding: 15px 20px;
+    margin: 0;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    background-color: #4A2C2A;
+}
+
+ul.navbar li {
+    background-color: transparent;
+    margin: 0;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+ul.navbar a,
+ul.navbar a:visited {
+    color: #F7F1E8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+ul.navbar a:hover {
+    color: #D6A875;
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+    color: #4A2C2A;
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial, sans-serif;
+}
+
+/* ===== General links ===== */
+a:link {
+    color: #795548;
+}
+
+a:visited {
+    color: #8B6A55;
+}
+
+a:hover {
+    color: #B08968;
+}
+
+/* ===== Tables ===== */
+table {
+    border-collapse: collapse;
+    border: 1px solid #B08968;
+    width: 100%;
+    max-width: 100%;
+    letter-spacing: 0.3px;
+    font-size: 0.9rem;
+    background-color: #FFFDF9;
+}
+
+td, th {
+    border: 1px solid #D6C2AE;
+    padding: 10px 16px;
+}
+
+th {
+    background-color: #795548;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    color: #4A342E;
+}
+
+tr:nth-child(even) td {
+    background-color: #F0E5D8;
+}
+
+tr:nth-child(odd) td {
+    background-color: #FFFDF9;
+}
+
+caption {
+    padding: 10px;
+    color: #4A2C2A;
+    font-weight: bold;
+}
+
+/* ===== Address / footer ===== */
+address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px dotted #B08968;
+    color: #795548;
+}
